@@ -1,0 +1,22 @@
+  <h2 ><p style="text-align: center;">Results:</p> </h2>
+    {% if prediction == 1%}
+    <h2 style="color: red;">Chances of having Liver Disease is more, please consult a Doctor.</h2>
+    
+    <h3>Symptoms</h3>
+    <p>Classic symptoms of liver disease include:</p>
+     <ul>
+      <li>nausea</li>
+      <li>vomiting</li>
+      <li>right upper quadrant abdominal pain, and </li>
+      <li>jaundice (a yellow discoloration of the skin due to elevated bilirubin concentrations in the bloodstream).</li>
+    </ul>
+    <br> 
+    <p style="text-align:center;"><img src="https://img.collegedekhocdn.com/media/img/careers/doctor-clinic.jpg" alt="HTML" width="350" height="250"></p>
+    {% elif prediction == 0%}
+    <h2 style="color: blue;">No Worries!!! You don't have Liver Disease.</h2>
+    <p style="text-align: center;"><img src="https://i.pinimg.com/originals/26/85/bc/2685bc21fc7ba31ac1c71893e81fd27f.jpg" alt="HTML" width="350" height="250"></p>
+    {% endif %}
+    
+
+</body>
+</html>
